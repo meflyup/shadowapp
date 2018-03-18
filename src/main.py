@@ -11,7 +11,7 @@ myclient.set_missing_host_key_policy(ssh.AutoAddPolicy())
 
 # 连接远程主机
 
-myclient.connect("172.31.16.99", port=22, username="ec2-user",password=None,pkey="/home/ec2-user/fxemails163com.pem")
+myclient.connect("172.31.16.99", port=22, username="ec2-user",password=None,key_filename="/home/ec2-user/fxemails163com.pem")
 
 # 在远程机执行shell命令
 
