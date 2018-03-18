@@ -1,3 +1,4 @@
+# coding=utf-8
 import ssh
 
 # 新建一个ssh客户端对象
